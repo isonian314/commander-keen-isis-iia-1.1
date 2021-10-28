@@ -47,6 +47,8 @@ A version may be uploaded in the future with a proper virtual environment and mo
 | <img src="https://github.com/isonian314/commander-keen-isis-iia-1.1/blob/main/screenshots/lvl4.png" width=320px height=200px> | <img src="https://github.com/isonian314/commander-keen-isis-iia-1.1/blob/main/screenshots/lvl5.png" width=320px height=200px> | <img src="https://github.com/isonian314/commander-keen-isis-iia-1.1/blob/main/screenshots/lvl6.png" width=320px height=200px> |
 | <img src="https://github.com/isonian314/commander-keen-isis-iia-1.1/blob/main/screenshots/lvl7.png" width=320px height=200px> | <img src="https://github.com/isonian314/commander-keen-isis-iia-1.1/blob/main/screenshots/lvl8.png" width=320px height=200px> | <img src="https://github.com/isonian314/commander-keen-isis-iia-1.1/blob/main/screenshots/lvl9.png" width=320px height=200px> |
 
+<img src="https://github.com/isonian314/commander-keen-isis-iia-1.1/blob/main/resources/maps/level9-dungeon-full.png">
+
 ## Links and further reading/watching
 
 * [KeenWiki entry](https://keenwiki.shikadi.net/wiki/The_Mystery_of_Isis_II)
