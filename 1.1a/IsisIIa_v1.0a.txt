@@ -1,0 +1,95 @@
+-------------------------------------------------
+Mystery of Isis IIa - version 1.0a (January 2012)
+-------------------------------------------------
+
+Welcome to the first official release of "Commander Keen - The Mystery of Isis IIa".
+
+Regretably, this is an *ALPHA* release; not all functionality has been full tested, and bugs may be present. The view has been taken that it is better to release *something* rather than *nothing*. There may or may not be future updates. As with most 3rd party software, this is provided *AS IS* and the authors make no guarentees, nor take any responsibility for any damage that the software may cause.
+
+Game-related help (story, controls, item & enemy list, etc) is contained in-game via the help menu (F1).
+
+For questions/comments/feedback, post to PCKF or contact: mystery.of.isis.iia@gmail.com
+
+In particular, please report all crashes. It will help to attach the error log file which is made every time the program crashes, along with a description of the level, position, and what was happening when it crashed.
+
+
+
+-------------------------------------------------
+Engine Information
+-------------------------------------------------
+
+
+Isis-IIa is the next generation Isis-II game engine in development. It is written under Windows XP in PyGame (a set of modules allowing you to use Python scripting as an interface to the cross-platform SDL library). It is inspired by the Worminator/Isis-II engine (originally by David Layne AKA DML1001, with later modifications by Charles Byrd), but has been completely re-written from scratch. In general the code has been greatly improved and optimised.
+
+A lot of the variables have been separated from the game logic, to allow for easy editing (jump heights, gravity, etc), and the engine incorporates frame-rate independent movement (should look the same at any processing speed). As such, all of the physics are specified in computer game S.I. units - i.e., 'PIXELS PER SECOND'. This is much more logical than, for example, 'PIXELS PER FRAME at 60 FPS'. The game logic still and screen refresh rate still run as fast as possible; it is only the animation and movement that is controlled. Other games such as the original Isis-II limited the frame rate to achieve constant speeds.
+
+The mechanics of the game play have been matched as closely as possible to that of the Galaxy series (e.g., jump heights, pogo amounts).
+
+For those not familiar with Isis-II, the main changes from the original Galaxy series are that Keen has health, multiple weapons, and the ability to swim whilst in a water portion of a level. If this bugs you, don't play it :-) We believe this opens up the door for a lot of new and exciting level design possibilities. If the original Keen creators were ever going to create an official "The Universe Is Toast" series, there would have certainly been some changes from the Galaxy series, just as they made the transition from Vorticons.
+
+Isis-IIa could potentially be very MOD-FRIENDLY as well. With no programming skills, you should theoretically (at a minimum) be able to create new tilesets, edit levels, and modify sprites (both Keen and Enemies). If the game physics (run speed, jump amounts, etc) & other variables were read in from a text file (currently they are hard-coded), they could also be modified. Ultimately, it should be possible to script custom cut scenes too. However at this stage, it is only possible to create custom levels, as most other information & graphics are hard-coded or not otherwise accessible.
+
+
+Current Engine Features:
+
+Cross Platform (has been shown to work on OS X, theoretically plays on Linux and possible to work on Android)
+ - uses SDL which is cross-platform
+ - interested parties could download Python (free) and are invited to try and compile from source to OS-X / Linux binaries (contact us)
+
+Resolution - can be easily scaled to run in the following modes. Future versions could increase the actual size of the playing area. It could also be possible to use 640x400 for the menus and cut-scenes, and scaled 320x200 for the game.
+ - 320 x 200 (windowed)
+ - 640 x 400 (windowed - prefered)
+ - 1280 x 800 (windowed - untested since my screen is too small)
+ - 640 x 400 (windowed, scale2x) - this looks crappy for the game but works OK for the menus
+ - Fullscreen
+
+32-bit Colour
+ - Although the Isis-II was only 8-bit (256) colour, that is no longer a technological constraint
+ - Isis-IIa will, however, for the most part still use the same 256-colour pallette
+ - Having 32-bit colour is useful for intros & cutscenes for example, and particularly for future Modding
+
+Level Editor
+ - Makes use of the free and simple to use, Windows-based "Tiled" level editor (www.mapeditor.org)
+ - Numerous layers for logical & hassle-free editing (3 x background, 3 x foreground, info, sprites, etc)
+ - Multiple BG & FG layers are combined in-game, but make for easier editing (Isis II used "graphical properties" which were annoying)
+ - Can copy & paste portions of the map
+ - Ability to export entire map to image file
+ - Mutliple zoom levels
+
+Keen Movement
+ - Run (flat, 1:1 slopes, 1:2 slopes)
+ - Jump
+ - Pogo
+ - Look Up/Down
+ - Idle (Look Up / Shrug)
+ - Ledge Grab
+ - Pole Climb
+ - Doors
+ - Swim
+ - Shoot (standing left/right/up, falling left/right/up/down, pole climbing left/right/up/down)
+
+Keen States - various Keen modes. The EGA mode is sample to show how sprite sets can change easily.
+ - Normal
+ - EGA
+
+Other
+ - Unlimited 4-frame animated tiles (frame length could in principle be changed)
+ - Particle system for minor explosions (eg water splash)
+ - Particle system could be expanded to create blood/fire/smoke effects (but these are not Keenish)
+ - Parallaxing background
+ - Translucent BG and FG tiles
+ - Locked doors
+
+Collectable items:
+ - Key cards
+ - Point items
+ - Health items
+ - Inventory items
+
+Weather Effects.
+ - Night mode
+ - Rain
+ - Snow
+ - Clouds
+
+Enjoy!

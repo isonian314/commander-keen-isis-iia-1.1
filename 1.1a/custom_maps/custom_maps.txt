@@ -1,0 +1,44 @@
+Custom Maps for Mystery of Isis IIa
+-----------------------------------
+
+
+Overall process:
+
+1. Download Tiled MapEditor (www.mapeditor.org)
+2. Run editor, and check Edit/Preferences is set to "Base 64 (gzip compressed)"
+3. Make a copy of sample.tmx
+4. Edit level, and load in Isis IIa via "Options > Load Custom Map"
+5. Make sure tiles.png, tiles_info.png and tiles_sprites.png are in the same directory you are working in
+
+
+Layers:
+
+The levels have a total of 8 layers:
+
+SPRITES: Keen starting position/direction, background number, enemies, doors, items, keys, powerups, platforms, switches, weather
+INFO: Platform properties (flat, slopes, etc), water, enemy initial direction, platform directions, switch functionality, door functionality, exits
+TransFG: Translucent foreground (e.g., windows)
+FG2: Foreground layer 2
+FG1: Foreground layer 1
+BG2: Background layer 2
+BG1: Background layer 1
+TransBG: Translucent background (e.g., windows)
+
+Note that BG1/BG2 and FG1/FG2 are compressed in-game, and exist to make editing easier. It's easiest to stick to the following conventions when editing levels:
+
+BG1 - the background of an inside room (e.g. a cave), where you do not want any parallaxing background seen
+BG2 - platforms
+FG1 - foreground items
+FG2 - occasionally you may have 2 foreground layers
+
+
+Tips:
+
+- If something doesn't work, check you haven't got an INFO tile on a GRAPHICS layer, or vise verse
+- For locked doors & exploding rocks, don't forget the associated INFO tiles, which get deleted when the key is inserted (or rock is shot)
+- For unlocked doors, the odd INFO tile needs to be on the left, and the even tile on the right (helps to "snap" Keen to the correct spot)
+- The rain, snow & cloud effects depend on the position at which the tile is placed
+- You can start Keen off with less health by using the -1, -2, -5 SPRITE tiles
+- I generally like to have a 1-tile border of SOLID INFO tiles around the entire level (stops enemies & bullets going out of bounds) - since error checking is not perfect
+- Music cannot be altered, the default song plays for all custom levels
+- The order and naming of the layers is important; do not modify these!

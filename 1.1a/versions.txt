@@ -1,0 +1,9 @@
+1.1a
+- Fixed bug where you could drop (down+CTRL) through sloped tiles
+- Gave keen invinsibility when he walks through an unlocked door
+- Tweaked levels 3, 4, 5 (less enemies, more health items), 8 (now passable)
+
+
+1.0a
+- First official release
+- Designated alpha since not all features were tested, and bugs could be present

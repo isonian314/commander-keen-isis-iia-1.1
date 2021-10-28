@@ -1,0 +1,11 @@
+* There wasn't an "inventory" per-say, but only a Boolean flag for if you had the Ion Scanner, or the shield. Battery life was separate as well, and all items worked off of the battery level.
+
+* The battery was to upgrade your shield. I think the shield was going to be time-limited, and the battery would increase the time it could be active. The other things I'm not as sure about. I think the yellow thing was a projectile of some sort, but I don't remember what it was for. Sorry! I don't even remember an ion scanner, hehe.
+
+* There are 3 Isionians: Green, Red, White.
+
+ - Green is regular Isonian walks around and shoots at you if he see you.
+
+ - Red is Military isonian, and is agressive. Walks around shoots at you, and can teleport closer to you or out of the way depending on how much damage he's taken. If weak, will teleport away to recharge, if strong will attack and get close.
+
+ - White is scientist, runs away normally and does no damage, but if attacked will fight back with HIGH aggression and damage.
