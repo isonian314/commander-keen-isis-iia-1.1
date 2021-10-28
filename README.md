@@ -49,6 +49,7 @@ A version may be uploaded in the future with a proper virtual environment and mo
 
 <img src="https://github.com/isonian314/commander-keen-isis-iia-1.1/blob/main/resources/maps/level9-dungeon-full.png">
 
+All level maps can be found in the [resources/maps](https://github.com/isonian314/commander-keen-isis-iia-1.1/tree/main/resources/maps) directory.
 ## Links and further reading/watching
 
 * [KeenWiki entry](https://keenwiki.shikadi.net/wiki/The_Mystery_of_Isis_II)
