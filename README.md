@@ -2,7 +2,7 @@
 
 <img src="https://github.com/isonian314/commander-keen-isis-iia-1.1/blob/main/design/level1.png" height=400>
 
-Source code (& assocaited files) dump of Commander Keen: The Mystery Of Isis IIa. This is the most recent incarnation of this fan game, which was released in 2012. It is built entirely in Python/PyGame. This repo mainly serves as a historical archive, and won't be actively maintained.
+Source code (& associated files) dump of Commander Keen: The Mystery Of Isis IIa. This is the most recent incarnation of this fan game, which was released in 2012. It is built entirely in Python/PyGame. This repo mainly serves as a historical archive, and won't be actively maintained.
 
 ## Engine feature list
 
