@@ -23,14 +23,35 @@ This is a full featured side-scroller written in PyGame, and has a number of int
 
 ## Dependencies
 
-The full dependency list (to run the game from source) is not known, but this is a guide:
+### Python 3
+
+In `/src-python3` there is a modified version of the original source code, which appears to run using:
+
+* `python==3.7.4`
+* `pygame==2.0.3`
+
+With a few changes:
+
+* resources read directly from `/data` directory (no encrypted zip file)
+* custom fonts are not enabled (couldn't load TTF files properly)
+* custom maps won't work (couldn't port UI code)
+* debug keys enabled by default:
+  * `s` - show statistics (use `c` to cycle colour)
+  * `h` - display solid/hidden areas
+  * `j` - jump cheat
+  * `k` - get all keys
+  * `l` - more lives
+  * `i` - get all weapons (1-6 are the main weapons, then 7-8 are the secret weapons)
+
+### Python 2 (original)
+
+The original dependency list (to run the game from source via `/src`) is not known, but this is a guide:
 
 * `python==2.6.5`
 * `pygame==1.9.1`
 * `czipfile`
 * `py2exe` (for producing a .EXE file)
 
-A version may be uploaded in the future with a proper virtual environment and more recent Python/pyGame versions.
 
 ## Repo structure
 
@@ -38,7 +59,8 @@ A version may be uploaded in the future with a proper virtual environment and mo
 * `/design` - some early design docs (story) and sketches. There is a whole host more original files to be found, but mostly these are already organised and included in the various game assets.
 * `/resources` - most of the game assets (graphics, sounds, fonts) from `keendata.is2`, but extracted and unencrypted.
 * `/screenshots` - a screenshot of every level.
-* `/src` - the actual Python source code. If you were to attempt to get this running, you should copy these files `/v1.1a` since that contains the appropriate structure to read the datafiles.
+* `/src` - the actual original Python source code. If you were to attempt to get this running, you should copy these files `/v1.1a` since that contains the appropriate structure to read the datafiles.
+* `/src-python3` - modified code to run on recent Python (3+) and Pygame (2+) verrsions. To get this running, copy the `/v1.1a/data` folder across and unzip the `keendaata.is2` using above instructions so all the files are in `/data`. Then `python isis.py`
 
 ## Screenshots
 
