@@ -1,6 +1,6 @@
 # Commander Keen in the Mystery of Isis IIa
 
-<img src="https://github.com/isonian314/commander-keen-isis-iia-1.1/blob/main/design/level1.png" height=400>
+<img src="https://github.com/isonian314/commander-keen-isis-iia-1.1/blob/main/screenshots/level1-demo.gif" height=400> |
 
 Source code (& associated files) dump of Commander Keen: The Mystery Of Isis IIa. This is the most recent incarnation of this fan game, which was released in 2012. It is built entirely in Python/PyGame. This repo mainly serves as a historical archive, and won't be actively maintained.
 
@@ -41,6 +41,8 @@ A version may be uploaded in the future with a proper virtual environment and mo
 * `/src` - the actual Python source code. If you were to attempt to get this running, you should copy these files `/v1.1a` since that contains the appropriate structure to read the datafiles.
 
 ## Screenshots
+
+<img src="https://github.com/isonian314/commander-keen-isis-iia-1.1/blob/main/design/level1.png" height=400>
 
 | <img src="https://github.com/isonian314/commander-keen-isis-iia-1.1/blob/main/screenshots/lvl1.png" width=320px height=200px> | <img src="https://github.com/isonian314/commander-keen-isis-iia-1.1/blob/main/screenshots/lvl2.png" width=320px height=200px> | <img src="https://github.com/isonian314/commander-keen-isis-iia-1.1/blob/main/screenshots/lvl3.png" width=320px height=200px> |
 | --- | --- | --- |
