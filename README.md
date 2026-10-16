@@ -4,6 +4,12 @@
 
 Source code (& associated files) dump of Commander Keen: The Mystery Of Isis IIa. This is the most recent incarnation of this fan game, which was released in 2012. It is built entirely in Python/PyGame. This repo mainly serves as a historical archive, and won't be actively maintained.
 
+**NB** - there are now (as of late 2026) three repos representing different variants of this game:
+
+1. The original repo (with source code for the Python versions) *is this repo*.
+2. The online playable Javascript web-port of the original can be found [here](https://github.com/isonian314/commander-keen-isis-iia-web).
+3. The enhanced (full skeleton of 16-levels, skeleton world map navigation) can be found [here](https://github.com/isonian314/commander-keen-isis-iia-web-enhanced).
+   
 ## Engine feature list
 
 This is a full featured side-scroller written in PyGame, and has a number of interesting features:
