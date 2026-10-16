@@ -8,7 +8,7 @@ Source code (& associated files) dump of Commander Keen: The Mystery Of Isis IIa
 
 1. The original repo (with source code for the Python versions) *is this repo*.
 2. The online playable Javascript web-port of the original can be found [here](https://github.com/isonian314/commander-keen-isis-iia-web).
-3. The enhanced (full skeleton of 16-levels, skeleton world map navigation) can be found [here](https://github.com/isonian314/commander-keen-isis-iia-web-enhanced).
+3. The enhanced online playable (full of 16-levels & new world map) can be found [here](https://github.com/isonian314/commander-keen-isis-iia-web-enhanced).
    
 ## Engine feature list
 
